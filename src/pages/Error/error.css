@@ -1,0 +1,30 @@
+.errorPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.errorPage h1 {
+  font-size: 78px;
+  /* font-family: "vazirFD"; */
+}
+
+.errorPage h2 {
+  font-size: 48px;
+}
+
+.errorMessage {
+  font-size: 22px;
+}
+
+.errorData {
+  margin: 10px 0;
+  color: tomato;
+  padding: 1px 3px;
+  border-radius: 4px;
+  font-weight: 300;
+}

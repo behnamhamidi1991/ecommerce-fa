@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "vazir";
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/fonts/vazir.ttf");
+}
+@font-face {
+  font-family: "vazirBold";
+  src: url("./assets/fonts/vazirBold.ttf");
+}
+@font-face {
+  font-family: "vazirFD";
+  src: url("./assets/fonts/vazirFD.ttf");
+}
+@font-face {
+  font-family: "vazirFD-bold";
+  src: url("./assets/fonts/vazirFD-bold.ttf");
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./assets/fonts/yekan.ttf");
+}
+@font-face {
+  font-family: "yekanBold";
+  src: url("./assets/fonts/yekanBold.ttf");
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "yekan";
+}
